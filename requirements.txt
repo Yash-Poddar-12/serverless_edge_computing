@@ -1,0 +1,11 @@
+numpy>=1.21
+pandas
+matplotlib
+scipy
+gym
+tqdm
+joblib
+# Optional for DQN:
+stable-baselines3[extra]>=2.0
+torch>=1.12
+Flask

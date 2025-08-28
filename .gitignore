@@ -1,0 +1,47 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs
+*.log
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python notebooks checkpoints
+.ipynb_checkpoints/
+
+# Generated results
+*.out
+*.dat
+*.csv
+*.png
+*.pdf
+
+# OpenFaaS / Docker
+function/vendor/
+function/build/
+function/.faas_cache/
